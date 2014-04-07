@@ -376,7 +376,7 @@ function messreihebutt_Callback(hObject, eventdata, handles)
     params=prepare(handles);
     query(instruments.stromz,'FPLOCK ON');
     
-    % Buttons "drücken" um listboxen upzudaten
+    % Buttons "druecken" um listboxen upzudaten
     pushbutton4_Callback(hObject, eventdata, handles)
     pushbutton5_Callback(hObject, eventdata, handles)
     
